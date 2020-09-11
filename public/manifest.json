@@ -1,0 +1,30 @@
+{
+    "name": "Weather: Do I need an umbrella?",
+    "short_name": "Weather APP",
+    "description": "Weather forecast information for Presleys Event NY",
+    "start_url": "index.html",
+    "scope": ".",
+    "background_color": "#EEE",
+    "theme_color": "#4A148C",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "lang": "en-US",
+    "prefer_related_applications": true,
+    "related_applications": [
+      {
+        "platform": "play",
+        "id": "com.google.samples.apps.iosched"
+      }
+    ],
+    "icons": [
+      {
+        "src": "assets/images/ms-icon-512x512.png",
+        "type": "image/png",
+        "rel": "icon",
+        "alt": "image",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+     ]
+    }
